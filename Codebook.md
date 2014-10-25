@@ -11,7 +11,7 @@ The original data contains signal data for the Samsung Galaxy Cellphone extracte
 ##Transformations performed##
 1. The feature names were extracted from "features.txt"
 2. The signal data for the training dataset was extracted from "train/X_train.txt"
-3. The signal data for the testing dataset was extracted from "train/y_train.txt"
+3. The signal data for the testing dataset was extracted from "test/X_test.txt"
 4. Both datasets were combined into one data matrix. Since the column order is the same in both datasts, the testing datasets was simply bound after the training dataset's rows.  
 5. From the original feature names, the ones that have "mean()" or "std()" on name, were selected since the target columns are the ones containing mean or standard deviation information. 
 6. The columns from the merged dataset corresponding to the selected column names were selected(the order in "features.txt" is the same as the columns in the data files, as indicated in the original data codebook)
